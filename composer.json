@@ -1,5 +1,5 @@
 {
-	"name": "kdyby/monolog",
+	"name": "azathoth/monolog",
 	"type": "library",
 	"description": "Integration of Monolog into Nette Framework",
 	"keywords": ["nette", "monolog", "logging", "diagnostics"],
@@ -15,7 +15,10 @@
 			"name": "Filip Procházka",
 			"homepage": "http://filip-prochazka.com",
 			"email": "filip@prochazka.su"
-		}
+		},
+        {
+            "name": "Matěj Račinský"
+        }
 	],
 	"require": {
 		"nette/di": "~2.2@dev",
