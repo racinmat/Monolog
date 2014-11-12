@@ -25,7 +25,7 @@ class Logger extends Monolog\Logger
     protected static $levels = array(
         100 => 'DEBUG',
         200 => 'INFO',
-        250 => 'MINOR_NOTICE',                  //added to be able to log 4 things and not to use warning
+        225 => 'MINOR_NOTICE',                  //added to be able to log 4 things and not to use warning
         250 => 'NOTICE',
         300 => 'WARNING',
         400 => 'ERROR',
@@ -33,6 +33,7 @@ class Logger extends Monolog\Logger
         550 => 'ALERT',
         600 => 'EMERGENCY',
     );
+
 	/**
 	 * @param string $channel
 	 * @return CustomChannel
